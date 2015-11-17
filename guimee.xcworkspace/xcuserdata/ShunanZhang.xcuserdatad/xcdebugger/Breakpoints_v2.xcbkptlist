@@ -36,11 +36,26 @@
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
+                  symbolName = "guimee.AppDelegate.__deallocating_deinit"
+                  moduleName = "guimee"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ShunanZhang/Downloads/guimee1-master/guimee/AppDelegate.swift"
+                  timestampString = "469478265.723501"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
                   symbolName = "guimee.AppDelegate.init (guimee.AppDelegate.Type)() -&gt; guimee.AppDelegate"
                   moduleName = "guimee"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ShunanZhang/Documents/guimee/guimee/AppDelegate.swift"
-                  timestampString = "469168993.605423"
+                  urlString = "file:///Users/ShunanZhang/Downloads/guimee1-master/guimee/AppDelegate.swift"
+                  timestampString = "469478265.724001"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -54,12 +69,12 @@
                   symbolName = "main"
                   moduleName = "guimee"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ShunanZhang/Documents/guimee/guimee/AppDelegate.swift"
-                  timestampString = "469168993.605883"
+                  urlString = "file:///Users/ShunanZhang/Downloads/guimee1-master/guimee/AppDelegate.swift"
+                  timestampString = "469478265.724417"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
                   offsetFromSymbolStart = "22">
                </Location>
             </Locations>
@@ -68,7 +83,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "guimee/LoginViewController.swift"
@@ -79,14 +94,14 @@
             endingLineNumber = "6">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "guimee.LoginViewController.init (guimee.LoginViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; guimee.LoginViewController"
                   moduleName = "guimee"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ShunanZhang/Documents/guimee/guimee/LoginViewController.swift"
-                  timestampString = "469445009.88455"
+                  urlString = "file:///Users/ShunanZhang/Downloads/guimee1-master/guimee/LoginViewController.swift"
+                  timestampString = "469478238.914034"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -94,14 +109,14 @@
                   offsetFromSymbolStart = "58">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "guimee.LoginViewController.init (guimee.LoginViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; Swift.Optional&lt;guimee.LoginViewController&gt;"
                   moduleName = "guimee"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ShunanZhang/Documents/guimee/guimee/LoginViewController.swift"
-                  timestampString = "469445009.88482"
+                  urlString = "file:///Users/ShunanZhang/Downloads/guimee1-master/guimee/LoginViewController.swift"
+                  timestampString = "469478238.914444"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -114,7 +129,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "guimee/LoginViewController.swift"
@@ -127,14 +142,14 @@
             landmarkType = "3">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "guimee.LoginViewController.__deallocating_deinit"
                   moduleName = "guimee"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ShunanZhang/Documents/guimee/guimee/LoginViewController.swift"
-                  timestampString = "469445009.887671"
+                  urlString = "file:///Users/ShunanZhang/Downloads/guimee1-master/guimee/LoginViewController.swift"
+                  timestampString = "469478238.916086"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -142,14 +157,14 @@
                   offsetFromSymbolStart = "12">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "guimee.LoginViewController.init (guimee.LoginViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; Swift.Optional&lt;guimee.LoginViewController&gt;"
                   moduleName = "guimee"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ShunanZhang/Documents/guimee/guimee/LoginViewController.swift"
-                  timestampString = "469445009.888787"
+                  urlString = "file:///Users/ShunanZhang/Downloads/guimee1-master/guimee/LoginViewController.swift"
+                  timestampString = "469478238.916763"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"

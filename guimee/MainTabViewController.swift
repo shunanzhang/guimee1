@@ -37,6 +37,8 @@ class MainTabViewController: UIViewController {
         watchlistViewController.view.frame = scrollView.frame
         watchlistViewController.view.frame.origin.x = 320
         scrollView.addSubview(watchlistViewController.view)
+        
+                scrollView.setContentOffset(CGPoint(x:containerView.frame.size.width, y: 0), animated:true)
     
     }
 
