@@ -12,12 +12,14 @@ import AFNetworking
 class SearchViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
 
     @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var searchField: UITextField!
+    @IBOutlet weak var searchButton: UIButton!
     
     var items: [NSDictionary]!
     
     //var names: [String]!
     
-    //let itemNames = ["dress 1", "dress 2", "dress 3", "dress 4", "dress 5", "dress 6"]
+    let itemNames = ["dress 1", "dress 2", "dress 3", "dress 4", "dress 5", "dress 6"]
     
     //let imageArray = [UIImage(named: "Dress1_"), UIImage(named: "Dress2_"), UIImage(named: "Dress3_"), UIImage(named: "Dress4_"), UIImage(named: "Dress5_"), UIImage(named: "Dress6_")]
         
@@ -46,6 +48,7 @@ class SearchViewController: UIViewController, UICollectionViewDataSource, UIColl
         
     }
 
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -63,11 +66,13 @@ class SearchViewController: UIViewController, UICollectionViewDataSource, UIColl
         
         var title = item["name"] as! String
         
+        var price = item["salePrice"] as! Float
+        
         var itemImageURLString = item.valueForKeyPath("thumbnailImage") as! String
         
         cell.titleLabel.text = title
-        
-        //cell.imageView.setImageWithURL (NSURL(string: itemImageURLString)!)
+        cell.priceLabel.text = "$" + (NSString(format: "%.2f", price) as String) as String
+        cell.imageView.setImageWithURL (NSURL(string: itemImageURLString)!)
         
         return cell
     }
@@ -76,6 +81,21 @@ class SearchViewController: UIViewController, UICollectionViewDataSource, UIColl
         self.performSegueWithIdentifier("showDetailSegue", sender: self)
     }
 
+    @IBAction func didPressButton(sender: AnyObject) {
+        let url = NSURL(string: "http://api.walmartlabs.com/v1/search?apiKey=ta8supx3ehdmwws2wq94vthd&query=" + (searchField.text ?? ""))!
+        
+        let request = NSURLRequest(URL: url)
+        
+        NSURLConnection.sendAsynchronousRequest(request, queue: NSOperationQueue.mainQueue()) {(response: NSURLResponse?, data: NSData?, error: NSError?) -> Void in
+            
+            let json = try! NSJSONSerialization.JSONObjectWithData(data!, options: [])
+            
+            self.items = json["items"] as! [NSDictionary]
+            
+            self.collectionView.reloadData()
+        }
+    }
+    
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "showDetailSegue" {
             
@@ -85,9 +105,15 @@ class SearchViewController: UIViewController, UICollectionViewDataSource, UIColl
             
             let vc = segue.destinationViewController as! ItemDetailViewController
             
-            //vc.itemImage = self.imageArray[indexPath.row]!
-            //vc.title = self.itemNames[indexPath.row]
+            //let item = self.items[indexPath.row] as! NSDictionary
             
+            //let stringUrl = item["thumbnailImage"] as! String
+            //let nsurl = NSURL(string: stringUrl)!
+            var cell = collectionView.cellForItemAtIndexPath(indexPath) as! ItemCell
+
+            vc.itemImage = cell.imageView.image!
+            vc.itemTitle.text = cell.titleLabel.text!
+            vc.itemPrice.text = cell.priceLabel.text!
             
         }
     }

@@ -3,4 +3,7 @@
 # Uncomment this line if you're using Swift
 use_frameworks!
 
+workspace 'guimee'
+
+pod 'AFNetworking'
 pod 'HTMLReader'

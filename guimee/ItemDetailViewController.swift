@@ -11,17 +11,19 @@ import UIKit
 class ItemDetailViewController: UIViewController {
 
     @IBOutlet weak var imageView: UIImageView!
-
+    @IBOutlet weak var priceLabel: UILabel!
     @IBOutlet weak var titleLabel: UILabel!
     
     var itemImage = UIImage()
     var itemTitle = UILabel()
+    var itemPrice = UILabel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         self.imageView.image = self.itemImage
-        //self.titleLabel.text = self.itemTitle.text
+        self.titleLabel.text = self.itemTitle.text
+        self.priceLabel.text = self.itemPrice.text
         
         // Do any additional setup after loading the view.
     }

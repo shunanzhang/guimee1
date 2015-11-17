@@ -86,7 +86,7 @@
                   moduleName = "guimee"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/ShunanZhang/Documents/guimee/guimee/LoginViewController.swift"
-                  timestampString = "469418627.434375"
+                  timestampString = "469445009.88455"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -101,7 +101,7 @@
                   moduleName = "guimee"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/ShunanZhang/Documents/guimee/guimee/LoginViewController.swift"
-                  timestampString = "469418627.434656"
+                  timestampString = "469445009.88482"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -134,7 +134,7 @@
                   moduleName = "guimee"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/ShunanZhang/Documents/guimee/guimee/LoginViewController.swift"
-                  timestampString = "469418627.437428"
+                  timestampString = "469445009.887671"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -149,7 +149,7 @@
                   moduleName = "guimee"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/ShunanZhang/Documents/guimee/guimee/LoginViewController.swift"
-                  timestampString = "469418627.438063"
+                  timestampString = "469445009.888787"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -166,12 +166,42 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "guimee/SearchViewController.swift"
-            timestampString = "469409800.75644"
+            timestampString = "469439013.888774"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
             landmarkName = "collectionView(_:numberOfItemsInSection:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "guimee/SearchViewController.swift"
+            timestampString = "469444354.401897"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "guimee/SearchViewController.swift"
+            timestampString = "469442082.873722"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "prepareForSegue(_:sender:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
